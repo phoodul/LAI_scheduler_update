@@ -1,0 +1,7 @@
+[project]
+name = "lai-scheduler-update"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = []
