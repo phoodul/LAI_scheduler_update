@@ -205,3 +205,13 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+# Data files
+*schedule_data*.json
+*config*.json
+
+# Executables
+*.exe
+
+# Google API Credentials
+credentials.json
+token.json
