@@ -43,6 +43,12 @@ class LAI_Scheduler_App:
         self.root = root
         self.root.title("Otsuka LAI Scheduler(Dr.Ver.V01)")
         self.root.geometry("1200x800") 
+        
+        try:
+            icon_img = tk.PhotoImage(file="data_image/Otsuka_ico.png")
+            self.root.iconphoto(False, icon_img)
+        except Exception:
+            pass
 
         self.current_date = datetime.date.today()
         self.year = self.current_date.year
