@@ -42,7 +42,13 @@ class LAI_Scheduler_App:
     def __init__(self, root):
         self.root = root
         self.root.title("SHMS LAI Scheduler(Dr.Ver.V01)")
-        self.root.geometry("1200x800") 
+        self.root.geometry("1200x800")
+        
+        try:
+            icon_img = tk.PhotoImage(file="data_image/SHMH_ico.png")
+            self.root.iconphoto(False, icon_img)
+        except Exception:
+            pass
 
         self.current_date = datetime.date.today()
         self.year = self.current_date.year
