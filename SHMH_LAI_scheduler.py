@@ -23,8 +23,8 @@ from googleapiclient.errors import HttpError
 # 달력 시작 요일 설정 (일요일)
 calendar.setfirstweekday(calendar.SUNDAY)
 
-DATA_FILE = "lai_schedule_data_final.json"
-CONFIG_FILE = "config.json"
+DATA_FILE = "shms_schedule_data_final.json"
+CONFIG_FILE = "shms_config.json"
 
 DRUG_DATABASE = {
     "인베가 서스티나": ["78mg", "117mg", "156mg", "234mg"],
@@ -41,7 +41,7 @@ DRUG_DATABASE = {
 class LAI_Scheduler_App:
     def __init__(self, root):
         self.root = root
-        self.root.title("Janssen LAI Scheduler(Dr.Ver.V01)")
+        self.root.title("SHMS LAI Scheduler(Dr.Ver.V01)")
         self.root.geometry("1200x800") 
 
         self.current_date = datetime.date.today()
@@ -144,7 +144,7 @@ class LAI_Scheduler_App:
         service = build('calendar', 'v3', credentials=creds)
         return service, ""
 
-    def get_or_create_calendar(self, service, summary="Janssen LAI Scheduler"):
+    def get_or_create_calendar(self, service, summary="SHMS LAI Scheduler"):
         page_token = None
         while True:
             calendar_list = service.calendarList().list(pageToken=page_token).execute()
@@ -483,15 +483,15 @@ class LAI_Scheduler_App:
         header_frame.grid(row=0, column=0, sticky="ew", padx=10, pady=10)
         header_frame.columnconfigure(1, weight=1) # Center column expands
 
-        # Janssen Logo (Left)
+        # SHMS Logo (Left)
         try:
-            janssen_img_orig = Image.open("data_image/Janssen_logo.jpg")
+            janssen_img_orig = Image.open("data_image/SHMH.png")
             janssen_img_resized = janssen_img_orig.resize((150, 40), Image.Resampling.LANCZOS)
             self.janssen_logo = ImageTk.PhotoImage(janssen_img_resized)
             janssen_label = tk.Label(header_frame, image=self.janssen_logo)
             janssen_label.grid(row=0, column=0, sticky="w")
         except FileNotFoundError:
-            tk.Label(header_frame, text="Janssen Logo").grid(row=0, column=0, sticky="w")
+            tk.Label(header_frame, text="SHMS Logo").grid(row=0, column=0, sticky="w")
 
         # Navigation (Center)
         nav_frame = tk.Frame(header_frame)
@@ -508,7 +508,7 @@ class LAI_Scheduler_App:
 
         # Invega Image (Right) - with soft edges
         try:
-            img_orig = Image.open("data_image/Invega_Sustenna.jpeg")
+            img_orig = Image.open("data_image/SHMH_image.png")
             img_resized = img_orig.resize((150, 40), Image.Resampling.LANCZOS)
             
             mask = Image.new('L', img_resized.size, 0)

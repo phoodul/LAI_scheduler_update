@@ -1,1 +1,2663 @@
-{}
+{
+    "2025-12-17": [
+        {
+            "name": "박성훈",
+            "drug": "인베가 트린자",
+            "dosage": "410mg",
+            "interval": 84,
+            "prescribed_date": "2025-12-17",
+            "next_date": "2026-03-11",
+            "type": "injection",
+            "record_id": 1774277426440
+        },
+        {
+            "name": "김현숙",
+            "drug": "인베가 트린자",
+            "dosage": "819mg",
+            "interval": 84,
+            "prescribed_date": "2025-12-17",
+            "next_date": "2026-03-11",
+            "type": "injection",
+            "record_id": 1774277426441
+        },
+        {
+            "name": "신우용",
+            "drug": "인베가 서스티나",
+            "dosage": "234mg",
+            "interval": 28,
+            "prescribed_date": "2025-12-17",
+            "next_date": "2026-01-14",
+            "type": "injection",
+            "record_id": 1774277426442
+        },
+        {
+            "name": "김선영",
+            "drug": "인베가 서스티나",
+            "dosage": "234mg",
+            "interval": 28,
+            "prescribed_date": "2025-12-17",
+            "next_date": "2026-01-14",
+            "type": "injection",
+            "record_id": 1774277426443
+        }
+    ],
+    "2026-03-11": [
+        {
+            "name": "고유희",
+            "drug": "인베가 서스티나",
+            "dosage": "234mg",
+            "interval": 28,
+            "prescribed_date": "2026-03-11",
+            "next_date": "2026-04-08",
+            "memo": "",
+            "type": "injection",
+            "record_id": 1774277426444
+        },
+        {
+            "name": "허두제",
+            "drug": "인베가 서스티나",
+            "dosage": "234mg",
+            "interval": 28,
+            "prescribed_date": "2026-03-11",
+            "next_date": "2026-04-08",
+            "memo": "",
+            "type": "injection",
+            "record_id": 1774277426445
+        },
+        {
+            "name": "정정일",
+            "drug": "인베가 서스티나",
+            "dosage": "234mg",
+            "interval": 28,
+            "prescribed_date": "2026-03-11",
+            "next_date": "2026-04-08",
+            "memo": "",
+            "type": "injection",
+            "record_id": 1774277426446
+        },
+        {
+            "name": "김태윤",
+            "drug": "인베가 서스티나",
+            "dosage": "156mg",
+            "interval": 7,
+            "prescribed_date": "2026-03-11",
+            "next_date": "2026-03-18",
+            "memo": "",
+            "type": "injection",
+            "record_id": 1774277426447
+        }
+    ],
+    "2026-01-14": [
+        {
+            "name": "허두제",
+            "drug": "인베가 서스티나",
+            "dosage": "234mg",
+            "interval": 28,
+            "prescribed_date": "2026-01-14",
+            "next_date": "2026-02-11",
+            "type": "injection",
+            "record_id": 1774277426448
+        },
+        {
+            "name": "신우용",
+            "drug": "인베가 서스티나",
+            "dosage": "234mg",
+            "interval": 28,
+            "prescribed_date": "2026-01-14",
+            "next_date": "2026-02-11",
+            "type": "injection",
+            "record_id": 1774277426449
+        },
+        {
+            "name": "김선영",
+            "drug": "인베가 서스티나",
+            "dosage": "234mg",
+            "interval": 28,
+            "prescribed_date": "2026-01-14",
+            "next_date": "2026-02-11",
+            "type": "injection",
+            "record_id": 1774277426450
+        },
+        {
+            "name": "정연지",
+            "drug": "마운자로",
+            "dosage": "10mg",
+            "interval": 28,
+            "prescribed_date": "2026-01-14",
+            "next_date": "2026-02-11",
+            "memo": "",
+            "type": "injection",
+            "record_id": 1774277426451
+        }
+    ],
+    "2025-12-12": [
+        {
+            "name": "황효선",
+            "drug": "인베가 서스티나",
+            "dosage": "234mg",
+            "interval": 21,
+            "prescribed_date": "2025-12-12",
+            "next_date": "2026-01-02",
+            "type": "injection",
+            "record_id": 1774277426452
+        }
+    ],
+    "2026-01-02": [
+        {
+            "name": "황효선",
+            "drug": "인베가 서스티나",
+            "dosage": "234mg",
+            "interval": 28,
+            "prescribed_date": "2026-01-02",
+            "next_date": "2026-01-30",
+            "type": "injection",
+            "record_id": 1774277426453
+        },
+        {
+            "name": "천나은",
+            "drug": "인베가 서스티나",
+            "dosage": "234mg",
+            "interval": 7,
+            "prescribed_date": "2026-01-02",
+            "next_date": "2026-01-09",
+            "type": "injection",
+            "record_id": 1774277426454
+        }
+    ],
+    "2025-12-03": [
+        {
+            "name": "최영남",
+            "drug": "인베가 서스티나",
+            "dosage": "234mg",
+            "interval": 28,
+            "prescribed_date": "2025-12-03",
+            "next_date": "2025-12-31",
+            "type": "injection",
+            "record_id": 1774277426455
+        },
+        {
+            "name": "한정순",
+            "drug": "인베가 서스티나",
+            "dosage": "234mg",
+            "interval": 28,
+            "prescribed_date": "2025-12-03",
+            "next_date": "2025-12-31",
+            "type": "injection",
+            "record_id": 1774277426456
+        }
+    ],
+    "2025-12-31": [
+        {
+            "name": "최영남",
+            "drug": "인베가 서스티나",
+            "dosage": "234mg",
+            "interval": 28,
+            "prescribed_date": "2025-12-31",
+            "next_date": "2026-01-28",
+            "type": "injection",
+            "record_id": 1774277426457
+        },
+        {
+            "name": "한정순",
+            "drug": "인베가 서스티나",
+            "dosage": "234mg",
+            "interval": 28,
+            "prescribed_date": "2025-12-31",
+            "next_date": "2026-01-28",
+            "type": "injection",
+            "record_id": 1774277426458
+        }
+    ],
+    "2025-12-10": [
+        {
+            "name": "김서영",
+            "drug": "아빌리파이 메인테나",
+            "dosage": "400mg",
+            "interval": 28,
+            "prescribed_date": "2025-12-10",
+            "next_date": "2026-01-07",
+            "type": "injection",
+            "record_id": 1774277426459
+        },
+        {
+            "name": "이형석",
+            "drug": "인베가 서스티나",
+            "dosage": "234mg",
+            "interval": 28,
+            "prescribed_date": "2025-12-10",
+            "next_date": "2026-01-07",
+            "type": "injection",
+            "record_id": 1774277426460
+        }
+    ],
+    "2026-01-07": [
+        {
+            "name": "백금자",
+            "drug": "인베가 서스티나",
+            "dosage": "234mg",
+            "interval": 28,
+            "prescribed_date": "2026-01-07",
+            "next_date": "2026-02-04",
+            "type": "injection",
+            "record_id": 1774277426461
+        },
+        {
+            "name": "천누리",
+            "drug": "아빌리파이 아심투파이",
+            "dosage": "720mg",
+            "interval": 56,
+            "prescribed_date": "2026-01-07",
+            "next_date": "2026-03-04",
+            "type": "injection",
+            "record_id": 1774277426462
+        }
+    ],
+    "2025-11-19": [
+        {
+            "name": "신우용",
+            "drug": "인베가 서스티나",
+            "dosage": "234mg",
+            "interval": 28,
+            "prescribed_date": "2025-11-19",
+            "next_date": "2025-12-17",
+            "type": "injection",
+            "record_id": 1774277426463
+        }
+    ],
+    "2025-11-26": [
+        {
+            "name": "정연지",
+            "drug": "아빌리파이 메인테나",
+            "dosage": "400mg",
+            "interval": 28,
+            "prescribed_date": "2025-11-26",
+            "next_date": "2025-12-24",
+            "type": "injection",
+            "record_id": 1774277426464
+        }
+    ],
+    "2025-12-24": [
+        {
+            "name": "정연지",
+            "drug": "아빌리파이 메인테나",
+            "dosage": "400mg",
+            "interval": 28,
+            "prescribed_date": "2025-12-24",
+            "next_date": null,
+            "type": "due",
+            "record_id": 1774277426464
+        },
+        {
+            "name": "강율리",
+            "drug": "인베가 트린자",
+            "dosage": "819mg",
+            "interval": 84,
+            "prescribed_date": "2025-12-24",
+            "next_date": "2026-03-18",
+            "type": "injection",
+            "record_id": 1774277426465
+        },
+        {
+            "name": "백은주",
+            "drug": "인베가 서스티나",
+            "dosage": "117mg",
+            "interval": 28,
+            "prescribed_date": "2025-12-24",
+            "next_date": "2026-01-21",
+            "type": "injection",
+            "record_id": 1774277426466
+        },
+        {
+            "name": "정정일",
+            "drug": "인베가 서스티나",
+            "dosage": "234mg",
+            "interval": 28,
+            "prescribed_date": "2025-12-24",
+            "next_date": "2026-01-21",
+            "type": "injection",
+            "record_id": 1774277426467
+        }
+    ],
+    "2025-12-18": [
+        {
+            "name": "임나은",
+            "drug": "인베가 트린자",
+            "dosage": "410mg",
+            "interval": 84,
+            "prescribed_date": "2025-12-18",
+            "next_date": "2026-03-12",
+            "type": "injection",
+            "record_id": 1774277426468
+        },
+        {
+            "name": "표경순",
+            "drug": "인베가 서스티나",
+            "dosage": "234mg",
+            "interval": 28,
+            "prescribed_date": "2025-12-18",
+            "next_date": "2026-01-15",
+            "type": "injection",
+            "record_id": 1774277426469
+        },
+        {
+            "name": "왕준원",
+            "drug": "인베가 트린자",
+            "dosage": "819mg",
+            "interval": 84,
+            "prescribed_date": "2025-12-18",
+            "next_date": "2026-03-12",
+            "type": "injection",
+            "record_id": 1774277426470
+        },
+        {
+            "name": "차형석",
+            "drug": "아빌리파이 아심투파이",
+            "dosage": "960mg",
+            "interval": 51,
+            "prescribed_date": "2025-12-18",
+            "next_date": "2026-02-07",
+            "type": "injection",
+            "record_id": 1774277426471
+        }
+    ],
+    "2026-03-12": [
+        {
+            "name": "강판수",
+            "drug": "인베가 서스티나",
+            "dosage": "234mg",
+            "interval": 28,
+            "prescribed_date": "2026-03-12",
+            "next_date": "2026-04-09",
+            "memo": "",
+            "type": "injection",
+            "record_id": 1774277426472
+        },
+        {
+            "name": "임나은",
+            "drug": "인베가 트린자",
+            "dosage": "410mg",
+            "interval": 84,
+            "prescribed_date": "2026-03-12",
+            "next_date": "2026-06-04",
+            "memo": "",
+            "type": "injection",
+            "record_id": 1774277426473
+        },
+        {
+            "name": "류나영",
+            "drug": "인베가 서스티나",
+            "dosage": "234mg",
+            "interval": 28,
+            "prescribed_date": "2026-03-12",
+            "next_date": "2026-04-09",
+            "memo": "",
+            "type": "injection",
+            "record_id": 1774277426474
+        },
+        {
+            "name": "왕준원",
+            "drug": "인베가 트린자",
+            "dosage": "819mg",
+            "interval": 84,
+            "prescribed_date": "2026-03-12",
+            "next_date": "2026-06-04",
+            "memo": "",
+            "type": "injection",
+            "record_id": 1774277426475
+        },
+        {
+            "name": "표경순",
+            "drug": "인베가 서스티나",
+            "dosage": "234mg",
+            "interval": 28,
+            "prescribed_date": "2026-03-12",
+            "next_date": "2026-04-09",
+            "memo": "",
+            "type": "injection",
+            "record_id": 1774277426476
+        }
+    ],
+    "2026-01-15": [
+        {
+            "name": "조현규",
+            "drug": "인베가 서스티나",
+            "dosage": "156mg",
+            "interval": 27,
+            "prescribed_date": "2026-01-15",
+            "next_date": "2026-02-11",
+            "type": "injection",
+            "record_id": 1774277426477
+        },
+        {
+            "name": "류나영",
+            "drug": "인베가 서스티나",
+            "dosage": "234mg",
+            "interval": 28,
+            "prescribed_date": "2026-01-15",
+            "next_date": "2026-02-12",
+            "type": "injection",
+            "record_id": 1774277426478
+        },
+        {
+            "name": "정성희",
+            "drug": "인베가 서스티나",
+            "dosage": "156mg",
+            "interval": 28,
+            "prescribed_date": "2026-01-15",
+            "next_date": "2026-02-12",
+            "type": "injection",
+            "record_id": 1774277426479
+        }
+    ],
+    "2026-02-12": [
+        {
+            "name": "류나영",
+            "drug": "인베가 서스티나",
+            "dosage": "234mg",
+            "interval": 28,
+            "prescribed_date": "2026-02-12",
+            "next_date": "2026-03-12",
+            "memo": "",
+            "type": "injection",
+            "record_id": 1774277426480
+        },
+        {
+            "name": "표경순",
+            "drug": "인베가 서스티나",
+            "dosage": "234mg",
+            "interval": 28,
+            "prescribed_date": "2026-02-12",
+            "next_date": "2026-03-12",
+            "memo": "",
+            "type": "injection",
+            "record_id": 1774277426481
+        },
+        {
+            "name": "정성희",
+            "drug": "인베가 서스티나",
+            "dosage": "156mg",
+            "interval": 28,
+            "prescribed_date": "2026-02-12",
+            "next_date": "2026-03-12",
+            "memo": "",
+            "type": "injection",
+            "record_id": 1774277426482
+        },
+        {
+            "name": "정정일",
+            "drug": "인베가 서스티나",
+            "dosage": "234mg",
+            "interval": 27,
+            "prescribed_date": "2026-02-12",
+            "next_date": "2026-03-11",
+            "memo": "",
+            "type": "injection",
+            "record_id": 1774277426483
+        }
+    ],
+    "2026-02-25": [
+        {
+            "name": "홍옥현",
+            "drug": "인베가 서스티나",
+            "dosage": "234mg",
+            "interval": 28,
+            "prescribed_date": "2026-02-25",
+            "next_date": "2026-03-25",
+            "memo": "",
+            "type": "injection",
+            "record_id": 1774277426484
+        },
+        {
+            "name": "신효진",
+            "drug": "인베가 서스티나",
+            "dosage": "234mg",
+            "interval": 28,
+            "prescribed_date": "2026-02-25",
+            "next_date": "2026-03-25",
+            "memo": "",
+            "type": "injection",
+            "record_id": 1774277426485
+        },
+        {
+            "name": "한정순",
+            "drug": "인베가 서스티나",
+            "dosage": "234mg",
+            "interval": 28,
+            "prescribed_date": "2026-02-25",
+            "next_date": "2026-03-25",
+            "memo": "",
+            "type": "injection",
+            "record_id": 1774277426486
+        },
+        {
+            "name": "김현숙",
+            "drug": "인베가 서스티나",
+            "dosage": "234mg",
+            "interval": 28,
+            "prescribed_date": "2026-02-25",
+            "next_date": "2026-03-25",
+            "memo": "",
+            "type": "injection",
+            "record_id": 1774277426487
+        }
+    ],
+    "2025-12-20": [
+        {
+            "name": "정지혜",
+            "drug": "아빌리파이 아심투파이",
+            "dosage": "720mg",
+            "interval": 56,
+            "prescribed_date": "2025-12-20",
+            "next_date": "2026-02-14",
+            "type": "injection",
+            "record_id": 1774277426488
+        }
+    ],
+    "2025-11-24": [
+        {
+            "name": "도원재",
+            "drug": "인베가 트린자",
+            "dosage": "819mg",
+            "interval": 84,
+            "prescribed_date": "2025-11-24",
+            "next_date": "2026-02-16",
+            "type": "injection",
+            "record_id": 1774277426489
+        }
+    ],
+    "2025-12-22": [
+        {
+            "name": "김향숙",
+            "drug": "인베가 트린자",
+            "dosage": "819mg",
+            "interval": 84,
+            "prescribed_date": "2025-12-22",
+            "next_date": "2026-03-16",
+            "type": "injection",
+            "record_id": 1774277426490
+        },
+        {
+            "name": "류나영",
+            "drug": "인베가 서스티나",
+            "dosage": "234mg",
+            "interval": 28,
+            "prescribed_date": "2025-12-22",
+            "next_date": "2026-01-19",
+            "type": "injection",
+            "record_id": 1774277426491
+        },
+        {
+            "name": "변정빈",
+            "drug": "아빌리파이 아심투파이",
+            "dosage": "960mg",
+            "interval": 59,
+            "prescribed_date": "2025-12-22",
+            "next_date": "2026-02-19",
+            "memo": "",
+            "type": "injection",
+            "record_id": 1774277426492
+        }
+    ],
+    "2026-02-19": [
+        {
+            "name": "변정빈",
+            "drug": "아빌리파이 아심투파이",
+            "dosage": "960mg",
+            "interval": 56,
+            "prescribed_date": "2026-02-19",
+            "next_date": "2026-04-16",
+            "memo": "",
+            "type": "injection",
+            "record_id": 1774277426493
+        },
+        {
+            "name": "장혜원",
+            "drug": "마운자로",
+            "dosage": "5mg",
+            "interval": 34,
+            "prescribed_date": "2026-02-19",
+            "next_date": "2026-03-25",
+            "memo": "",
+            "type": "injection",
+            "record_id": 1774277426494
+        }
+    ],
+    "2026-03-16": [
+        {
+            "name": "김향숙",
+            "drug": "인베가 트린자",
+            "dosage": "819mg",
+            "interval": 84,
+            "prescribed_date": "2026-03-16",
+            "next_date": null,
+            "type": "due",
+            "record_id": 1774277426490
+        },
+        {
+            "name": "박혜진",
+            "drug": "아빌리파이 아심투파이",
+            "dosage": "720mg",
+            "interval": 56,
+            "prescribed_date": "2026-03-16",
+            "next_date": null,
+            "type": "due",
+            "record_id": 1774277426495
+        }
+    ],
+    "2026-01-19": [
+        {
+            "name": "김순희",
+            "drug": "인베가 서스티나",
+            "dosage": "234mg",
+            "interval": 27,
+            "prescribed_date": "2026-01-19",
+            "next_date": null,
+            "type": "due",
+            "record_id": 1774277426504
+        },
+        {
+            "name": "박혜진",
+            "drug": "아빌리파이 아심투파이",
+            "dosage": "720mg",
+            "interval": 56,
+            "prescribed_date": "2026-01-19",
+            "next_date": "2026-03-16",
+            "type": "injection",
+            "record_id": 1774277426495
+        },
+        {
+            "name": "김서아",
+            "drug": "인베가 트린자",
+            "dosage": "819mg",
+            "interval": 84,
+            "prescribed_date": "2026-01-19",
+            "next_date": "2026-04-13",
+            "type": "injection",
+            "record_id": 1774277426496
+        },
+        {
+            "name": "김순희",
+            "drug": "인베가 트린자",
+            "dosage": "819mg",
+            "interval": 84,
+            "prescribed_date": "2026-01-19",
+            "next_date": "2026-04-13",
+            "type": "injection",
+            "record_id": 1774277426497
+        }
+    ],
+    "2026-03-18": [
+        {
+            "name": "강율리",
+            "drug": "인베가 트린자",
+            "dosage": "819mg",
+            "interval": 84,
+            "prescribed_date": "2026-03-18",
+            "next_date": "2026-06-10",
+            "memo": "",
+            "type": "injection",
+            "record_id": 1774277426498
+        },
+        {
+            "name": "정연지",
+            "drug": "아빌리파이 메인테나",
+            "dosage": "400mg",
+            "interval": 28,
+            "prescribed_date": "2026-03-18",
+            "next_date": "2026-04-15",
+            "memo": "",
+            "type": "injection",
+            "record_id": 1774277426499
+        },
+        {
+            "name": "백은주",
+            "drug": "인베가 서스티나",
+            "dosage": "117mg",
+            "interval": 28,
+            "prescribed_date": "2026-03-18",
+            "next_date": "2026-04-15",
+            "memo": "",
+            "type": "injection",
+            "record_id": 1774277426500
+        },
+        {
+            "name": "박성훈",
+            "drug": "인베가 트린자",
+            "dosage": "410mg",
+            "interval": 84,
+            "prescribed_date": "2026-03-18",
+            "next_date": "2026-06-10",
+            "memo": "",
+            "type": "injection",
+            "record_id": 1774277426501
+        },
+        {
+            "name": "조귀영",
+            "drug": "아빌리파이 아심투파이",
+            "dosage": "960mg",
+            "interval": 56,
+            "prescribed_date": "2026-03-18",
+            "next_date": "2026-05-13",
+            "memo": "",
+            "type": "injection",
+            "record_id": 1774277426502
+        },
+        {
+            "name": "김태윤",
+            "drug": "인베가 서스티나",
+            "dosage": "156mg",
+            "interval": 28,
+            "prescribed_date": "2026-03-18",
+            "next_date": "2026-04-15",
+            "memo": "",
+            "type": "injection",
+            "record_id": 1774277426503
+        }
+    ],
+    "2025-12-23": [
+        {
+            "name": "김순희",
+            "drug": "인베가 서스티나",
+            "dosage": "234mg",
+            "interval": 27,
+            "prescribed_date": "2025-12-23",
+            "next_date": "2026-01-19",
+            "type": "injection",
+            "record_id": 1774277426504
+        }
+    ],
+    "2026-01-21": [
+        {
+            "name": "백은주",
+            "drug": "인베가 서스티나",
+            "dosage": "117mg",
+            "interval": 28,
+            "prescribed_date": "2026-01-21",
+            "next_date": null,
+            "type": "due",
+            "record_id": 1774277426466
+        },
+        {
+            "name": "정정일",
+            "drug": "인베가 서스티나",
+            "dosage": "234mg",
+            "interval": 28,
+            "prescribed_date": "2026-01-21",
+            "next_date": null,
+            "type": "due",
+            "record_id": 1774277426467
+        },
+        {
+            "name": "정연지",
+            "drug": "아빌리파이 메인테나",
+            "dosage": "400mg",
+            "interval": 28,
+            "prescribed_date": "2026-01-21",
+            "next_date": "2026-02-18",
+            "type": "injection",
+            "record_id": 1774277426505
+        },
+        {
+            "name": "백은주",
+            "drug": "인베가 서스티나",
+            "dosage": "117mg",
+            "interval": 28,
+            "prescribed_date": "2026-01-21",
+            "next_date": "2026-02-18",
+            "type": "injection",
+            "record_id": 1774277426506
+        },
+        {
+            "name": "정정일",
+            "drug": "인베가 서스티나",
+            "dosage": "234mg",
+            "interval": 23,
+            "prescribed_date": "2026-01-21",
+            "next_date": "2026-02-13",
+            "type": "injection",
+            "record_id": 1774277426507
+        },
+        {
+            "name": "조귀영",
+            "drug": "아빌리파이 아심투파이",
+            "dosage": "960mg",
+            "interval": 56,
+            "prescribed_date": "2026-01-21",
+            "next_date": "2026-03-18",
+            "type": "injection",
+            "record_id": 1774277426508
+        }
+    ],
+    "2026-01-28": [
+        {
+            "name": "최영남",
+            "drug": "인베가 트린자",
+            "dosage": "819mg",
+            "interval": 84,
+            "prescribed_date": "2026-01-28",
+            "next_date": "2026-04-22",
+            "type": "injection",
+            "record_id": 1774277426509
+        },
+        {
+            "name": "한정순",
+            "drug": "인베가 서스티나",
+            "dosage": "234mg",
+            "interval": 28,
+            "prescribed_date": "2026-01-28",
+            "next_date": "2026-02-25",
+            "type": "injection",
+            "record_id": 1774277426510
+        }
+    ],
+    "2025-12-01": [
+        {
+            "name": "윤석우",
+            "drug": "인베가 트린자",
+            "dosage": "819mg",
+            "interval": 84,
+            "prescribed_date": "2025-12-01",
+            "next_date": "2026-02-23",
+            "type": "injection",
+            "record_id": 1774277426511
+        }
+    ],
+    "2026-02-23": [
+        {
+            "name": "김세미",
+            "drug": "인베가 트린자",
+            "dosage": "819mg",
+            "interval": 84,
+            "prescribed_date": "2026-02-23",
+            "next_date": "2026-05-18",
+            "memo": "",
+            "type": "injection",
+            "record_id": 1774277426512
+        },
+        {
+            "name": "윤석우",
+            "drug": "인베가 트린자",
+            "dosage": "819mg",
+            "interval": 84,
+            "prescribed_date": "2026-02-23",
+            "next_date": "2026-05-18",
+            "memo": "",
+            "type": "injection",
+            "record_id": 1774277426513
+        }
+    ],
+    "2025-12-02": [
+        {
+            "name": "김세미",
+            "drug": "인베가 트린자",
+            "dosage": "819mg",
+            "interval": 81,
+            "prescribed_date": "2025-12-02",
+            "next_date": "2026-02-21",
+            "type": "injection",
+            "record_id": 1774277426514
+        },
+        {
+            "name": "김세미",
+            "drug": "인베가 트린자",
+            "dosage": "819mg",
+            "interval": 83,
+            "prescribed_date": "2025-12-02",
+            "next_date": "2026-02-23",
+            "type": "injection",
+            "record_id": 1774277426515
+        }
+    ],
+    "2026-02-21": [
+        {
+            "name": "이종태",
+            "drug": "인베가 트린자",
+            "dosage": "819mg",
+            "interval": 90,
+            "prescribed_date": "2026-02-21",
+            "next_date": "2026-05-22",
+            "memo": "",
+            "type": "injection",
+            "record_id": 1774277426516
+        }
+    ],
+    "2026-01-09": [
+        {
+            "name": "천나은",
+            "drug": "인베가 서스티나",
+            "dosage": "156mg",
+            "interval": 26,
+            "prescribed_date": "2026-01-09",
+            "next_date": "2026-02-04",
+            "memo": "다음 번 234mg",
+            "type": "injection",
+            "record_id": 1774277426517
+        }
+    ],
+    "2026-02-07": [
+        {
+            "name": "김병욱",
+            "drug": "인베가 서스티나",
+            "dosage": "234mg",
+            "interval": 28,
+            "prescribed_date": "2026-02-07",
+            "next_date": "2026-03-07",
+            "memo": "",
+            "type": "injection",
+            "record_id": 1774277426518
+        },
+        {
+            "name": "정제환",
+            "drug": "인베가 트린자",
+            "dosage": "273mg",
+            "interval": 77,
+            "prescribed_date": "2026-02-07",
+            "next_date": "2026-04-25",
+            "memo": "",
+            "type": "injection",
+            "record_id": 1774277426519
+        },
+        {
+            "name": "김태윤",
+            "drug": "인베가 트린자",
+            "dosage": "410mg",
+            "interval": 84,
+            "prescribed_date": "2026-02-07",
+            "next_date": "2026-05-02",
+            "memo": "",
+            "type": "injection",
+            "record_id": 1774277426520
+        }
+    ],
+    "2026-01-03": [
+        {
+            "name": "김병욱",
+            "drug": "인베가 서스티나",
+            "dosage": "234mg",
+            "interval": 28,
+            "prescribed_date": "2026-01-03",
+            "next_date": "2026-01-31",
+            "type": "injection",
+            "record_id": 1774277426521
+        },
+        {
+            "name": "조성규",
+            "drug": "인베가 서스티나",
+            "dosage": "234mg",
+            "interval": 28,
+            "prescribed_date": "2026-01-03",
+            "next_date": "2026-01-31",
+            "type": "injection",
+            "record_id": 1774277426522
+        },
+        {
+            "name": "박민서",
+            "drug": "인베가 서스티나",
+            "dosage": "156mg",
+            "interval": 28,
+            "prescribed_date": "2026-01-03",
+            "next_date": "2026-01-31",
+            "type": "injection",
+            "record_id": 1774277426523
+        },
+        {
+            "name": "조수연",
+            "drug": "아빌리파이 아심투파이",
+            "dosage": "960mg",
+            "interval": 63,
+            "prescribed_date": "2026-01-03",
+            "next_date": "2026-03-07",
+            "memo": "",
+            "type": "injection",
+            "record_id": 1774277426524
+        }
+    ],
+    "2026-01-31": [
+        {
+            "name": "김병욱",
+            "drug": "인베가 서스티나",
+            "dosage": "234mg",
+            "interval": 28,
+            "prescribed_date": "2026-01-31",
+            "next_date": null,
+            "type": "due",
+            "record_id": 1774277426521
+        },
+        {
+            "name": "김재현",
+            "drug": "인베가 서스티나",
+            "dosage": "234mg",
+            "interval": 7,
+            "prescribed_date": "2026-01-31",
+            "next_date": "2026-02-07",
+            "memo": "다음 주 156mg",
+            "type": "injection",
+            "record_id": 1774277426525
+        },
+        {
+            "name": "조성규",
+            "drug": "인베가 서스티나",
+            "dosage": "234mg",
+            "interval": 28,
+            "prescribed_date": "2026-01-31",
+            "next_date": "2026-02-28",
+            "memo": "",
+            "type": "injection",
+            "record_id": 1774277426526
+        },
+        {
+            "name": "공한성",
+            "drug": "위고비",
+            "dosage": "2.4mg",
+            "interval": 28,
+            "prescribed_date": "2026-01-31",
+            "next_date": "2026-02-28",
+            "memo": "",
+            "type": "injection",
+            "record_id": 1774277426527
+        }
+    ],
+    "2026-02-28": [
+        {
+            "name": "박민서",
+            "drug": "인베가 서스티나",
+            "dosage": "156mg",
+            "interval": 28,
+            "prescribed_date": "2026-02-28",
+            "next_date": "2026-03-28",
+            "memo": "",
+            "type": "injection",
+            "record_id": 1774277426528
+        }
+    ],
+    "2026-02-04": [
+        {
+            "name": "강란희",
+            "drug": "인베가 서스티나",
+            "dosage": "234mg",
+            "interval": 7,
+            "prescribed_date": "2026-02-04",
+            "next_date": "2026-02-11",
+            "memo": "다음 주 156mg",
+            "type": "injection",
+            "record_id": 1774277426529
+        },
+        {
+            "name": "백금자",
+            "drug": "인베가 서스티나",
+            "dosage": "234mg",
+            "interval": 28,
+            "prescribed_date": "2026-02-04",
+            "next_date": "2026-03-04",
+            "memo": "",
+            "type": "injection",
+            "record_id": 1774277426530
+        }
+    ],
+    "2026-01-06": [
+        {
+            "name": "이형석",
+            "drug": "인베가 서스티나",
+            "dosage": "234mg",
+            "interval": 28,
+            "prescribed_date": "2026-01-06",
+            "next_date": "2026-02-03",
+            "type": "injection",
+            "record_id": 1774277426531
+        }
+    ],
+    "2026-02-03": [
+        {
+            "name": "이형석",
+            "drug": "인베가 서스티나",
+            "dosage": "234mg",
+            "interval": 28,
+            "prescribed_date": "2026-02-03",
+            "next_date": "2026-03-03",
+            "memo": "",
+            "type": "injection",
+            "record_id": 1774277426532
+        }
+    ],
+    "2026-03-04": [
+        {
+            "name": "백금자",
+            "drug": "인베가 서스티나",
+            "dosage": "234mg",
+            "interval": 28,
+            "prescribed_date": "2026-03-04",
+            "next_date": "2026-04-01",
+            "memo": "",
+            "type": "injection",
+            "record_id": 1774277426533
+        }
+    ],
+    "2026-01-08": [
+        {
+            "name": "김혜선",
+            "drug": "인베가 서스티나",
+            "dosage": "78mg",
+            "interval": 28,
+            "prescribed_date": "2026-01-08",
+            "next_date": "2026-02-05",
+            "type": "injection",
+            "record_id": 1774277426534
+        }
+    ],
+    "2026-02-05": [
+        {
+            "name": "고유희",
+            "drug": "인베가 서스티나",
+            "dosage": "234mg",
+            "interval": 7,
+            "prescribed_date": "2026-02-05",
+            "next_date": "2026-02-12",
+            "memo": "일주일 후 156mg",
+            "type": "injection",
+            "record_id": 1774277426535
+        },
+        {
+            "name": "김혜선",
+            "drug": "인베가 서스티나",
+            "dosage": "78mg",
+            "interval": 28,
+            "prescribed_date": "2026-02-05",
+            "next_date": "2026-03-05",
+            "memo": "",
+            "type": "injection",
+            "record_id": 1774277426536
+        },
+        {
+            "name": "차형석",
+            "drug": "아빌리파이 아심투파이",
+            "dosage": "960mg",
+            "interval": 56,
+            "prescribed_date": "2026-02-05",
+            "next_date": "2026-04-02",
+            "memo": "",
+            "type": "injection",
+            "record_id": 1774277426537
+        }
+    ],
+    "2025-11-29": [
+        {
+            "name": "이종태",
+            "drug": "인베가 트린자",
+            "dosage": "819mg",
+            "interval": 84,
+            "prescribed_date": "2025-11-29",
+            "next_date": "2026-02-21",
+            "type": "injection",
+            "record_id": 1774277426538
+        }
+    ],
+    "2026-04-08": [
+        {
+            "name": "허두제",
+            "drug": "인베가 트린자",
+            "dosage": "819mg",
+            "interval": 84,
+            "prescribed_date": "2026-04-08",
+            "next_date": null,
+            "type": "due",
+            "record_id": 1774277426598
+        },
+        {
+            "name": "고유희",
+            "drug": "인베가 서스티나",
+            "dosage": "234mg",
+            "interval": 28,
+            "prescribed_date": "2026-04-08",
+            "next_date": null,
+            "memo": "",
+            "type": "due",
+            "record_id": 1774277426444
+        },
+        {
+            "name": "허두제",
+            "drug": "인베가 서스티나",
+            "dosage": "234mg",
+            "interval": 28,
+            "prescribed_date": "2026-04-08",
+            "next_date": null,
+            "memo": "",
+            "type": "due",
+            "record_id": 1774277426445
+        },
+        {
+            "name": "정정일",
+            "drug": "인베가 서스티나",
+            "dosage": "234mg",
+            "interval": 28,
+            "prescribed_date": "2026-04-08",
+            "next_date": null,
+            "memo": "",
+            "type": "due",
+            "record_id": 1774277426446
+        }
+    ],
+    "2026-02-11": [
+        {
+            "name": "강란희",
+            "drug": "인베가 서스티나",
+            "dosage": "156mg",
+            "interval": 28,
+            "prescribed_date": "2026-02-11",
+            "next_date": "2026-03-11",
+            "memo": "다음 번 234mg",
+            "type": "injection",
+            "record_id": 1774277426539
+        },
+        {
+            "name": "고유희",
+            "drug": "인베가 서스티나",
+            "dosage": "156mg",
+            "interval": 28,
+            "prescribed_date": "2026-02-11",
+            "next_date": "2026-03-11",
+            "memo": "다음 번 234mg",
+            "type": "injection",
+            "record_id": 1774277426540
+        },
+        {
+            "name": "백은주",
+            "drug": "인베가 서스티나",
+            "dosage": "117mg",
+            "interval": 35,
+            "prescribed_date": "2026-02-11",
+            "next_date": "2026-03-18",
+            "memo": "",
+            "type": "injection",
+            "record_id": 1774277426541
+        },
+        {
+            "name": "허두제",
+            "drug": "인베가 서스티나",
+            "dosage": "234mg",
+            "interval": 28,
+            "prescribed_date": "2026-02-11",
+            "next_date": "2026-03-11",
+            "memo": "",
+            "type": "injection",
+            "record_id": 1774277426542
+        },
+        {
+            "name": "신우용",
+            "drug": "인베가 서스티나",
+            "dosage": "234mg",
+            "interval": 28,
+            "prescribed_date": "2026-02-11",
+            "next_date": "2026-03-11",
+            "memo": "",
+            "type": "injection",
+            "record_id": 1774277426543
+        },
+        {
+            "name": "정연지",
+            "drug": "마운자로",
+            "dosage": "10mg",
+            "interval": 28,
+            "prescribed_date": "2026-02-11",
+            "next_date": "2026-03-11",
+            "memo": "",
+            "type": "injection",
+            "record_id": 1774277426544
+        },
+        {
+            "name": "정지혜",
+            "drug": "아빌리파이 아심투파이",
+            "dosage": "720mg",
+            "interval": 59,
+            "prescribed_date": "2026-02-11",
+            "next_date": "2026-04-11",
+            "memo": "",
+            "type": "injection",
+            "record_id": 1774277426545
+        }
+    ],
+    "2026-01-17": [
+        {
+            "name": "신민정",
+            "drug": "아빌리파이 아심투파이",
+            "dosage": "720mg",
+            "interval": 56,
+            "prescribed_date": "2026-01-17",
+            "next_date": "2026-03-14",
+            "type": "injection",
+            "record_id": 1774277426546
+        }
+    ],
+    "2026-04-13": [
+        {
+            "name": "김서아",
+            "drug": "인베가 트린자",
+            "dosage": "819mg",
+            "interval": 84,
+            "prescribed_date": "2026-04-13",
+            "next_date": null,
+            "type": "due",
+            "record_id": 1774277426496
+        },
+        {
+            "name": "김순희",
+            "drug": "인베가 트린자",
+            "dosage": "819mg",
+            "interval": 84,
+            "prescribed_date": "2026-04-13",
+            "next_date": null,
+            "type": "due",
+            "record_id": 1774277426497
+        }
+    ],
+    "2026-02-18": [
+        {
+            "name": "유영숙",
+            "drug": "인베가 트린자",
+            "dosage": "819mg",
+            "interval": 77,
+            "prescribed_date": "2026-02-18",
+            "next_date": "2026-05-06",
+            "memo": "",
+            "type": "injection",
+            "record_id": 1774277426547
+        },
+        {
+            "name": "정연지",
+            "drug": "아빌리파이 메인테나",
+            "dosage": "400mg",
+            "interval": 28,
+            "prescribed_date": "2026-02-18",
+            "next_date": "2026-03-18",
+            "memo": "",
+            "type": "injection",
+            "record_id": 1774277426548
+        }
+    ],
+    "2026-01-23": [
+        {
+            "name": "황효선",
+            "drug": "인베가 서스티나",
+            "dosage": "234mg",
+            "interval": 21,
+            "prescribed_date": "2026-01-23",
+            "next_date": "2026-02-13",
+            "type": "injection",
+            "record_id": 1774277426549
+        },
+        {
+            "name": "임헌",
+            "drug": "인베가 서스티나",
+            "dosage": "234mg",
+            "interval": 28,
+            "prescribed_date": "2026-01-23",
+            "next_date": "2026-02-20",
+            "type": "injection",
+            "record_id": 1774277426550
+        },
+        {
+            "name": "김성현",
+            "drug": "인베가 트린자",
+            "dosage": "819mg",
+            "interval": 84,
+            "prescribed_date": "2026-01-23",
+            "next_date": "2026-04-17",
+            "type": "injection",
+            "record_id": 1774277426551
+        }
+    ],
+    "2026-02-13": [
+        {
+            "name": "황효선",
+            "drug": "인베가 서스티나",
+            "dosage": "234mg",
+            "interval": 28,
+            "prescribed_date": "2026-02-13",
+            "next_date": "2026-03-13",
+            "memo": "",
+            "type": "injection",
+            "record_id": 1774277426552
+        },
+        {
+            "name": "강판수",
+            "drug": "인베가 서스티나",
+            "dosage": "156mg",
+            "interval": 28,
+            "prescribed_date": "2026-02-13",
+            "next_date": "2026-03-13",
+            "memo": "다음 번 234mg",
+            "type": "injection",
+            "record_id": 1774277426553
+        }
+    ],
+    "2026-01-05": [
+        {
+            "name": "김영",
+            "drug": "인베가 서스티나",
+            "dosage": "234mg",
+            "interval": 28,
+            "prescribed_date": "2026-01-05",
+            "next_date": "2026-02-02",
+            "type": "injection",
+            "record_id": 1774277426554
+        }
+    ],
+    "2026-02-02": [
+        {
+            "name": "김영",
+            "drug": "인베가 서스티나",
+            "dosage": "234mg",
+            "interval": 28,
+            "prescribed_date": "2026-02-02",
+            "next_date": "2026-03-02",
+            "memo": "",
+            "type": "injection",
+            "record_id": 1774277426555
+        },
+        {
+            "name": "이영임",
+            "drug": "인베가 서스티나",
+            "dosage": "234mg",
+            "interval": 7,
+            "prescribed_date": "2026-02-02",
+            "next_date": "2026-02-09",
+            "memo": "다음 번 156mg",
+            "type": "injection",
+            "record_id": 1774277426556
+        },
+        {
+            "name": "박현",
+            "drug": "인베가 트린자",
+            "dosage": "819mg",
+            "interval": 84,
+            "prescribed_date": "2026-02-02",
+            "next_date": "2026-04-27",
+            "memo": "",
+            "type": "injection",
+            "record_id": 1774277426557
+        },
+        {
+            "name": "박민서",
+            "drug": "인베가 서스티나",
+            "dosage": "156mg",
+            "interval": 26,
+            "prescribed_date": "2026-02-02",
+            "next_date": "2026-02-28",
+            "memo": "",
+            "type": "injection",
+            "record_id": 1774277426558
+        }
+    ],
+    "2026-04-16": [
+        {
+            "name": "박건호",
+            "drug": "인베가 트린자",
+            "dosage": "410mg",
+            "interval": 84,
+            "prescribed_date": "2026-04-16",
+            "next_date": null,
+            "type": "due",
+            "record_id": 1774277426559
+        },
+        {
+            "name": "변정빈",
+            "drug": "아빌리파이 아심투파이",
+            "dosage": "960mg",
+            "interval": 56,
+            "prescribed_date": "2026-04-16",
+            "next_date": null,
+            "memo": "",
+            "type": "due",
+            "record_id": 1774277426493
+        }
+    ],
+    "2026-01-22": [
+        {
+            "name": "박건호",
+            "drug": "인베가 트린자",
+            "dosage": "410mg",
+            "interval": 84,
+            "prescribed_date": "2026-01-22",
+            "next_date": "2026-04-16",
+            "type": "injection",
+            "record_id": 1774277426559
+        },
+        {
+            "name": "이다경",
+            "drug": "인베가 하피에라",
+            "dosage": "1092mg",
+            "interval": 168,
+            "prescribed_date": "2026-01-22",
+            "next_date": null,
+            "type": "due",
+            "record_id": 1774277426561
+        },
+        {
+            "name": "이다경",
+            "drug": "인베가 하피에라",
+            "dosage": "1092mg",
+            "interval": 168,
+            "prescribed_date": "2026-01-22",
+            "next_date": "2026-07-09",
+            "type": "injection",
+            "record_id": 1774277426560
+        }
+    ],
+    "2025-08-07": [
+        {
+            "name": "이다경",
+            "drug": "인베가 하피에라",
+            "dosage": "1092mg",
+            "interval": 168,
+            "prescribed_date": "2025-08-07",
+            "next_date": "2026-01-22",
+            "type": "injection",
+            "record_id": 1774277426561
+        }
+    ],
+    "2026-07-09": [
+        {
+            "name": "이다경",
+            "drug": "인베가 하피에라",
+            "dosage": "1092mg",
+            "interval": 168,
+            "prescribed_date": "2026-07-09",
+            "next_date": null,
+            "type": "due",
+            "record_id": 1774277426560
+        }
+    ],
+    "2025-11-22": [
+        {
+            "name": "정제환",
+            "drug": "인베가 트린자",
+            "dosage": "273mg",
+            "interval": 77,
+            "prescribed_date": "2025-11-22",
+            "next_date": "2026-02-07",
+            "type": "injection",
+            "record_id": 1774277426562
+        }
+    ],
+    "2025-09-18": [
+        {
+            "name": "유영숙",
+            "drug": "인베가 트린자",
+            "dosage": "819mg",
+            "interval": 77,
+            "prescribed_date": "2025-09-18",
+            "next_date": "2025-12-04",
+            "type": "injection",
+            "record_id": 1774277426563
+        }
+    ],
+    "2026-02-20": [
+        {
+            "name": "신승엽",
+            "drug": "인베가 서스티나",
+            "dosage": "234mg",
+            "interval": 28,
+            "prescribed_date": "2026-02-20",
+            "next_date": "2026-03-20",
+            "memo": "",
+            "type": "injection",
+            "record_id": 1774277426564
+        },
+        {
+            "name": "임헌",
+            "drug": "인베가 서스티나",
+            "dosage": "234mg",
+            "interval": 28,
+            "prescribed_date": "2026-02-20",
+            "next_date": "2026-03-20",
+            "memo": "",
+            "type": "injection",
+            "record_id": 1774277426565
+        }
+    ],
+    "2026-04-17": [
+        {
+            "name": "김성현",
+            "drug": "인베가 트린자",
+            "dosage": "819mg",
+            "interval": 84,
+            "prescribed_date": "2026-04-17",
+            "next_date": null,
+            "type": "due",
+            "record_id": 1774277426551
+        }
+    ],
+    "2025-11-27": [
+        {
+            "name": "신승엽",
+            "drug": "인베가 트린자",
+            "dosage": "819mg",
+            "interval": 84,
+            "prescribed_date": "2025-11-27",
+            "next_date": "2026-02-19",
+            "type": "injection",
+            "record_id": 1774277426566
+        }
+    ],
+    "2026-01-24": [
+        {
+            "name": "박지훈",
+            "drug": "인베가 트린자",
+            "dosage": "819mg",
+            "interval": 84,
+            "prescribed_date": "2026-01-24",
+            "next_date": "2026-04-18",
+            "type": "injection",
+            "record_id": 1774277426567
+        }
+    ],
+    "2026-04-18": [
+        {
+            "name": "박지훈",
+            "drug": "인베가 트린자",
+            "dosage": "819mg",
+            "interval": 84,
+            "prescribed_date": "2026-04-18",
+            "next_date": null,
+            "type": "due",
+            "record_id": 1774277426567
+        }
+    ],
+    "2026-01-27": [
+        {
+            "name": "홍옥현",
+            "drug": "인베가 서스티나",
+            "dosage": "234mg",
+            "interval": 28,
+            "prescribed_date": "2026-01-27",
+            "next_date": "2026-02-24",
+            "type": "injection",
+            "record_id": 1774277426568
+        }
+    ],
+    "2026-04-22": [
+        {
+            "name": "최영남",
+            "drug": "인베가 트린자",
+            "dosage": "819mg",
+            "interval": 84,
+            "prescribed_date": "2026-04-22",
+            "next_date": null,
+            "type": "due",
+            "record_id": 1774277426509
+        }
+    ],
+    "2025-12-16": [
+        {
+            "name": "박정임",
+            "drug": "인베가 트린자",
+            "dosage": "819mg",
+            "interval": 84,
+            "prescribed_date": "2025-12-16",
+            "next_date": "2026-03-10",
+            "memo": "",
+            "type": "injection",
+            "record_id": 1774277426569
+        }
+    ],
+    "2025-11-10": [
+        {
+            "name": "박현",
+            "drug": "인베가 트린자",
+            "dosage": "819mg",
+            "interval": 84,
+            "prescribed_date": "2025-11-10",
+            "next_date": "2026-02-02",
+            "memo": "",
+            "type": "injection",
+            "record_id": 1774277426570
+        }
+    ],
+    "2026-04-27": [
+        {
+            "name": "박현",
+            "drug": "인베가 트린자",
+            "dosage": "819mg",
+            "interval": 84,
+            "prescribed_date": "2026-04-27",
+            "next_date": null,
+            "memo": "",
+            "type": "due",
+            "record_id": 1774277426557
+        }
+    ],
+    "2026-03-03": [
+        {
+            "name": "이형석",
+            "drug": "인베가 서스티나",
+            "dosage": "156mg",
+            "interval": 28,
+            "prescribed_date": "2026-03-03",
+            "next_date": "2026-03-31",
+            "memo": "",
+            "type": "injection",
+            "record_id": 1774277426571
+        }
+    ],
+    "2026-02-06": [
+        {
+            "name": "강판수",
+            "drug": "인베가 서스티나",
+            "dosage": "234mg",
+            "interval": 7,
+            "prescribed_date": "2026-02-06",
+            "next_date": "2026-02-13",
+            "memo": "일주일 후 156mg",
+            "type": "injection",
+            "record_id": 1774277426572
+        },
+        {
+            "name": "김재현",
+            "drug": "인베가 서스티나",
+            "dosage": "156mg",
+            "interval": 28,
+            "prescribed_date": "2026-02-06",
+            "next_date": "2026-03-06",
+            "memo": "다음 번 234mg",
+            "type": "injection",
+            "record_id": 1774277426573
+        },
+        {
+            "name": "박준영",
+            "drug": "인베가 트린자",
+            "dosage": "819mg",
+            "interval": 83,
+            "prescribed_date": "2026-02-06",
+            "next_date": "2026-04-30",
+            "memo": "",
+            "type": "injection",
+            "record_id": 1774277426574
+        },
+        {
+            "name": "최혜정",
+            "drug": "아빌리파이 메인테나",
+            "dosage": "300mg",
+            "interval": 28,
+            "prescribed_date": "2026-02-06",
+            "next_date": "2026-03-06",
+            "memo": "",
+            "type": "injection",
+            "record_id": 1774277426575
+        }
+    ],
+    "2026-03-05": [
+        {
+            "name": "김혜선",
+            "drug": "인베가 서스티나",
+            "dosage": "78mg",
+            "interval": 28,
+            "prescribed_date": "2026-03-05",
+            "next_date": "2026-04-02",
+            "memo": "",
+            "type": "injection",
+            "record_id": 1774277426576
+        },
+        {
+            "name": "정성희",
+            "drug": "인베가 서스티나",
+            "dosage": "156mg",
+            "interval": 21,
+            "prescribed_date": "2026-03-05",
+            "next_date": "2026-03-26",
+            "memo": "",
+            "type": "injection",
+            "record_id": 1774277426577
+        }
+    ],
+    "2026-04-02": [
+        {
+            "name": "차형석",
+            "drug": "아빌리파이 아심투파이",
+            "dosage": "960mg",
+            "interval": 56,
+            "prescribed_date": "2026-04-02",
+            "next_date": null,
+            "memo": "",
+            "type": "due",
+            "record_id": 1774277426537
+        },
+        {
+            "name": "김혜선",
+            "drug": "인베가 서스티나",
+            "dosage": "78mg",
+            "interval": 28,
+            "prescribed_date": "2026-04-02",
+            "next_date": null,
+            "memo": "",
+            "type": "due",
+            "record_id": 1774277426576
+        }
+    ],
+    "2026-03-06": [
+        {
+            "name": "최혜정",
+            "drug": "아빌리파이 메인테나",
+            "dosage": "300mg",
+            "interval": 28,
+            "prescribed_date": "2026-03-06",
+            "next_date": null,
+            "memo": "",
+            "type": "due",
+            "record_id": 1774277426575
+        },
+        {
+            "name": "김재현",
+            "drug": "인베가 서스티나",
+            "dosage": "234mg",
+            "interval": 28,
+            "prescribed_date": "2026-03-06",
+            "next_date": "2026-04-03",
+            "memo": "",
+            "type": "injection",
+            "record_id": 1774277426578
+        },
+        {
+            "name": "황효선",
+            "drug": "인베가 서스티나",
+            "dosage": "234mg",
+            "interval": 21,
+            "prescribed_date": "2026-03-06",
+            "next_date": "2026-03-27",
+            "memo": "",
+            "type": "injection",
+            "record_id": 1774277426579
+        }
+    ],
+    "2026-05-01": [
+        {
+            "name": "박준영",
+            "drug": "인베가 트린자",
+            "dosage": "819mg",
+            "interval": 84,
+            "prescribed_date": "2026-05-01",
+            "next_date": null,
+            "memo": "",
+            "type": "due",
+            "record_id": 1774277426599
+        }
+    ],
+    "2026-04-30": [
+        {
+            "name": "박준영",
+            "drug": "인베가 트린자",
+            "dosage": "819mg",
+            "interval": 83,
+            "prescribed_date": "2026-04-30",
+            "next_date": null,
+            "memo": "",
+            "type": "due",
+            "record_id": 1774277426574
+        }
+    ],
+    "2026-03-07": [
+        {
+            "name": "김병욱",
+            "drug": "인베가 서스티나",
+            "dosage": "234mg",
+            "interval": 28,
+            "prescribed_date": "2026-03-07",
+            "next_date": "2026-04-04",
+            "memo": "",
+            "type": "injection",
+            "record_id": 1774277426580
+        },
+        {
+            "name": "조수연",
+            "drug": "아빌리파이 아심투파이",
+            "dosage": "960mg",
+            "interval": 56,
+            "prescribed_date": "2026-03-07",
+            "next_date": "2026-05-02",
+            "memo": "",
+            "type": "injection",
+            "record_id": 1774277426581
+        },
+        {
+            "name": "정유라",
+            "drug": "인베가 하피에라",
+            "dosage": "1092mg",
+            "interval": 168,
+            "prescribed_date": "2026-03-07",
+            "next_date": "2026-08-22",
+            "memo": "",
+            "type": "injection",
+            "record_id": 1774277426582
+        },
+        {
+            "name": "천누리",
+            "drug": "아빌리파이 아심투파이",
+            "dosage": "720mg",
+            "interval": 56,
+            "prescribed_date": "2026-03-07",
+            "next_date": "2026-05-02",
+            "memo": "",
+            "type": "injection",
+            "record_id": 1774277426583
+        }
+    ],
+    "2026-04-25": [
+        {
+            "name": "정제환",
+            "drug": "인베가 트린자",
+            "dosage": "273mg",
+            "interval": 77,
+            "prescribed_date": "2026-04-25",
+            "next_date": null,
+            "memo": "",
+            "type": "due",
+            "record_id": 1774277426519
+        }
+    ],
+    "2026-05-02": [
+        {
+            "name": "김태윤",
+            "drug": "인베가 트린자",
+            "dosage": "410mg",
+            "interval": 84,
+            "prescribed_date": "2026-05-02",
+            "next_date": null,
+            "memo": "",
+            "type": "due",
+            "record_id": 1774277426520
+        },
+        {
+            "name": "조수연",
+            "drug": "아빌리파이 아심투파이",
+            "dosage": "960mg",
+            "interval": 56,
+            "prescribed_date": "2026-05-02",
+            "next_date": null,
+            "memo": "",
+            "type": "due",
+            "record_id": 1774277426581
+        },
+        {
+            "name": "천누리",
+            "drug": "아빌리파이 아심투파이",
+            "dosage": "720mg",
+            "interval": 56,
+            "prescribed_date": "2026-05-02",
+            "next_date": null,
+            "memo": "",
+            "type": "due",
+            "record_id": 1774277426583
+        }
+    ],
+    "2026-02-09": [
+        {
+            "name": "이영임",
+            "drug": "인베가 서스티나",
+            "dosage": "156mg",
+            "interval": 28,
+            "prescribed_date": "2026-02-09",
+            "next_date": "2026-03-09",
+            "memo": "다음 번 234mg",
+            "type": "injection",
+            "record_id": 1774277426584
+        }
+    ],
+    "2025-07-03": [
+        {
+            "name": "유영숙",
+            "drug": "인베가 트린자",
+            "dosage": "819mg",
+            "interval": 77,
+            "prescribed_date": "2025-07-03",
+            "next_date": "2025-09-18",
+            "memo": "",
+            "type": "injection",
+            "record_id": 1774277426585
+        }
+    ],
+    "2025-12-04": [
+        {
+            "name": "유영숙",
+            "drug": "인베가 트린자",
+            "dosage": "819mg",
+            "interval": 77,
+            "prescribed_date": "2025-12-04",
+            "next_date": "2026-02-19",
+            "memo": "",
+            "type": "injection",
+            "record_id": 1774277426586
+        }
+    ],
+    "2026-05-06": [
+        {
+            "name": "유영숙",
+            "drug": "인베가 트린자",
+            "dosage": "819mg",
+            "interval": 77,
+            "prescribed_date": "2026-05-06",
+            "next_date": null,
+            "memo": "",
+            "type": "due",
+            "record_id": 1774277426547
+        }
+    ],
+    "2026-02-14": [
+        {
+            "name": "도원재",
+            "drug": "인베가 트린자",
+            "dosage": "819mg",
+            "interval": 86,
+            "prescribed_date": "2026-02-14",
+            "next_date": "2026-05-11",
+            "memo": "",
+            "type": "injection",
+            "record_id": 1774277426587
+        }
+    ],
+    "2026-05-11": [
+        {
+            "name": "도원재",
+            "drug": "인베가 트린자",
+            "dosage": "819mg",
+            "interval": 86,
+            "prescribed_date": "2026-05-11",
+            "next_date": null,
+            "memo": "",
+            "type": "due",
+            "record_id": 1774277426587
+        }
+    ],
+    "2026-03-25": [
+        {
+            "name": "장혜원",
+            "drug": "마운자로",
+            "dosage": "5mg",
+            "interval": 34,
+            "prescribed_date": "2026-03-25",
+            "next_date": null,
+            "memo": "",
+            "type": "due",
+            "record_id": 1774277426494
+        },
+        {
+            "name": "홍옥현",
+            "drug": "인베가 서스티나",
+            "dosage": "234mg",
+            "interval": 28,
+            "prescribed_date": "2026-03-25",
+            "next_date": null,
+            "memo": "",
+            "type": "due",
+            "record_id": 1774277426484
+        },
+        {
+            "name": "신효진",
+            "drug": "인베가 서스티나",
+            "dosage": "234mg",
+            "interval": 28,
+            "prescribed_date": "2026-03-25",
+            "next_date": null,
+            "memo": "",
+            "type": "due",
+            "record_id": 1774277426485
+        },
+        {
+            "name": "한정순",
+            "drug": "인베가 서스티나",
+            "dosage": "234mg",
+            "interval": 28,
+            "prescribed_date": "2026-03-25",
+            "next_date": null,
+            "memo": "",
+            "type": "due",
+            "record_id": 1774277426486
+        },
+        {
+            "name": "김현숙",
+            "drug": "인베가 서스티나",
+            "dosage": "234mg",
+            "interval": 28,
+            "prescribed_date": "2026-03-25",
+            "next_date": null,
+            "memo": "",
+            "type": "due",
+            "record_id": 1774277426487
+        }
+    ],
+    "2026-03-20": [
+        {
+            "name": "신승엽",
+            "drug": "인베가 서스티나",
+            "dosage": "234mg",
+            "interval": 28,
+            "prescribed_date": "2026-03-20",
+            "next_date": null,
+            "memo": "",
+            "type": "due",
+            "record_id": 1774277426564
+        },
+        {
+            "name": "임헌",
+            "drug": "인베가 서스티나",
+            "dosage": "234mg",
+            "interval": 28,
+            "prescribed_date": "2026-03-20",
+            "next_date": null,
+            "memo": "",
+            "type": "due",
+            "record_id": 1774277426565
+        }
+    ],
+    "2026-05-18": [
+        {
+            "name": "김세미",
+            "drug": "인베가 트린자",
+            "dosage": "819mg",
+            "interval": 84,
+            "prescribed_date": "2026-05-18",
+            "next_date": null,
+            "memo": "",
+            "type": "due",
+            "record_id": 1774277426512
+        },
+        {
+            "name": "윤석우",
+            "drug": "인베가 트린자",
+            "dosage": "819mg",
+            "interval": 84,
+            "prescribed_date": "2026-05-18",
+            "next_date": null,
+            "memo": "",
+            "type": "due",
+            "record_id": 1774277426513
+        }
+    ],
+    "2026-02-26": [
+        {
+            "name": "정진녀",
+            "drug": "아빌리파이 아심투파이",
+            "dosage": "720mg",
+            "interval": 56,
+            "prescribed_date": "2026-02-26",
+            "next_date": "2026-04-23",
+            "memo": "",
+            "type": "injection",
+            "record_id": 1774277426588
+        },
+        {
+            "name": "이상현",
+            "drug": "인베가 서스티나",
+            "dosage": "234mg",
+            "interval": 7,
+            "prescribed_date": "2026-02-26",
+            "next_date": "2026-03-05",
+            "memo": "다음 번 인베가 서스티나 156mg",
+            "type": "injection",
+            "record_id": 1774277426589
+        }
+    ],
+    "2026-04-23": [
+        {
+            "name": "정진녀",
+            "drug": "아빌리파이 아심투파이",
+            "dosage": "720mg",
+            "interval": 56,
+            "prescribed_date": "2026-04-23",
+            "next_date": null,
+            "memo": "",
+            "type": "due",
+            "record_id": 1774277426588
+        }
+    ],
+    "2026-02-27": [
+        {
+            "name": "조성규",
+            "drug": "인베가 서스티나",
+            "dosage": "234mg",
+            "interval": 29,
+            "prescribed_date": "2026-02-27",
+            "next_date": "2026-03-28",
+            "memo": "",
+            "type": "injection",
+            "record_id": 1774277426590
+        },
+        {
+            "name": "김경희",
+            "drug": "인베가 서스티나",
+            "dosage": "156mg",
+            "interval": 56,
+            "prescribed_date": "2026-02-27",
+            "next_date": "2026-04-24",
+            "memo": "",
+            "type": "injection",
+            "record_id": 1774277426591
+        }
+    ],
+    "2026-03-28": [
+        {
+            "name": "조성규",
+            "drug": "인베가 서스티나",
+            "dosage": "234mg",
+            "interval": 29,
+            "prescribed_date": "2026-03-28",
+            "next_date": null,
+            "memo": "",
+            "type": "due",
+            "record_id": 1774277426590
+        },
+        {
+            "name": "박민서",
+            "drug": "인베가 서스티나",
+            "dosage": "156mg",
+            "interval": 28,
+            "prescribed_date": "2026-03-28",
+            "next_date": null,
+            "memo": "",
+            "type": "due",
+            "record_id": 1774277426528
+        }
+    ],
+    "2026-04-24": [
+        {
+            "name": "김경희",
+            "drug": "인베가 서스티나",
+            "dosage": "156mg",
+            "interval": 56,
+            "prescribed_date": "2026-04-24",
+            "next_date": null,
+            "memo": "",
+            "type": "due",
+            "record_id": 1774277426591
+        }
+    ],
+    "2026-05-22": [
+        {
+            "name": "이종태",
+            "drug": "인베가 트린자",
+            "dosage": "819mg",
+            "interval": 90,
+            "prescribed_date": "2026-05-22",
+            "next_date": null,
+            "memo": "",
+            "type": "due",
+            "record_id": 1774277426516
+        }
+    ],
+    "2026-03-31": [
+        {
+            "name": "이형석",
+            "drug": "인베가 서스티나",
+            "dosage": "156mg",
+            "interval": 28,
+            "prescribed_date": "2026-03-31",
+            "next_date": null,
+            "memo": "",
+            "type": "due",
+            "record_id": 1774277426571
+        }
+    ],
+    "2026-04-01": [
+        {
+            "name": "백금자",
+            "drug": "인베가 서스티나",
+            "dosage": "234mg",
+            "interval": 28,
+            "prescribed_date": "2026-04-01",
+            "next_date": null,
+            "memo": "",
+            "type": "due",
+            "record_id": 1774277426533
+        }
+    ],
+    "2026-04-03": [
+        {
+            "name": "김재현",
+            "drug": "인베가 서스티나",
+            "dosage": "234mg",
+            "interval": 28,
+            "prescribed_date": "2026-04-03",
+            "next_date": null,
+            "memo": "",
+            "type": "due",
+            "record_id": 1774277426578
+        }
+    ],
+    "2026-03-27": [
+        {
+            "name": "황효선",
+            "drug": "인베가 서스티나",
+            "dosage": "234mg",
+            "interval": 21,
+            "prescribed_date": "2026-03-27",
+            "next_date": null,
+            "memo": "",
+            "type": "due",
+            "record_id": 1774277426579
+        }
+    ],
+    "2026-04-04": [
+        {
+            "name": "김병욱",
+            "drug": "인베가 서스티나",
+            "dosage": "234mg",
+            "interval": 28,
+            "prescribed_date": "2026-04-04",
+            "next_date": null,
+            "memo": "",
+            "type": "due",
+            "record_id": 1774277426580
+        }
+    ],
+    "2026-03-09": [
+        {
+            "name": "이영임",
+            "drug": "인베가 서스티나",
+            "dosage": "234mg",
+            "interval": 28,
+            "prescribed_date": "2026-03-09",
+            "next_date": "2026-04-06",
+            "memo": "",
+            "type": "injection",
+            "record_id": 1774277426592
+        },
+        {
+            "name": "전희경",
+            "drug": "위고비",
+            "dosage": "0.5mg",
+            "interval": 28,
+            "prescribed_date": "2026-03-09",
+            "next_date": "2026-04-06",
+            "memo": "",
+            "type": "injection",
+            "record_id": 1774277426593
+        },
+        {
+            "name": "조주영",
+            "drug": "마운자로",
+            "dosage": "2.5mg",
+            "interval": 28,
+            "prescribed_date": "2026-03-09",
+            "next_date": "2026-04-06",
+            "memo": "",
+            "type": "injection",
+            "record_id": 1774277426594
+        },
+        {
+            "name": "이상현",
+            "drug": "인베가 서스티나",
+            "dosage": "156mg",
+            "interval": 28,
+            "prescribed_date": "2026-03-09",
+            "next_date": "2026-04-06",
+            "memo": "다음 번 234mg",
+            "type": "injection",
+            "record_id": 1774277426595
+        }
+    ],
+    "2026-04-06": [
+        {
+            "name": "이영임",
+            "drug": "인베가 서스티나",
+            "dosage": "234mg",
+            "interval": 28,
+            "prescribed_date": "2026-04-06",
+            "next_date": null,
+            "memo": "",
+            "type": "due",
+            "record_id": 1774277426592
+        },
+        {
+            "name": "전희경",
+            "drug": "위고비",
+            "dosage": "0.5mg",
+            "interval": 28,
+            "prescribed_date": "2026-04-06",
+            "next_date": null,
+            "memo": "",
+            "type": "due",
+            "record_id": 1774277426593
+        },
+        {
+            "name": "조주영",
+            "drug": "마운자로",
+            "dosage": "2.5mg",
+            "interval": 28,
+            "prescribed_date": "2026-04-06",
+            "next_date": null,
+            "memo": "",
+            "type": "due",
+            "record_id": 1774277426594
+        },
+        {
+            "name": "이상현",
+            "drug": "인베가 서스티나",
+            "dosage": "156mg",
+            "interval": 28,
+            "prescribed_date": "2026-04-06",
+            "next_date": null,
+            "memo": "다음 번 234mg",
+            "type": "due",
+            "record_id": 1774277426595
+        }
+    ],
+    "2026-08-22": [
+        {
+            "name": "정유라",
+            "drug": "인베가 하피에라",
+            "dosage": "1092mg",
+            "interval": 168,
+            "prescribed_date": "2026-08-22",
+            "next_date": null,
+            "memo": "",
+            "type": "due",
+            "record_id": 1774277426582
+        }
+    ],
+    "2026-03-14": [
+        {
+            "name": "신민정",
+            "drug": "아빌리파이 아심투파이",
+            "dosage": "720mg",
+            "interval": 56,
+            "prescribed_date": "2026-03-14",
+            "next_date": "2026-05-09",
+            "memo": "",
+            "type": "injection",
+            "record_id": 1774277426596
+        }
+    ],
+    "2026-05-09": [
+        {
+            "name": "신민정",
+            "drug": "아빌리파이 아심투파이",
+            "dosage": "720mg",
+            "interval": 56,
+            "prescribed_date": "2026-05-09",
+            "next_date": null,
+            "memo": "",
+            "type": "due",
+            "record_id": 1774277426596
+        }
+    ],
+    "2026-03-17": [
+        {
+            "name": "신우용",
+            "drug": "인베가 서스티나",
+            "dosage": "234mg",
+            "interval": 28,
+            "prescribed_date": "2026-03-17",
+            "next_date": "2026-04-14",
+            "memo": "",
+            "type": "injection",
+            "record_id": 1774277426597
+        }
+    ],
+    "2026-04-14": [
+        {
+            "name": "신우용",
+            "drug": "인베가 서스티나",
+            "dosage": "234mg",
+            "interval": 28,
+            "prescribed_date": "2026-04-14",
+            "next_date": null,
+            "memo": "",
+            "type": "due",
+            "record_id": 1774277426597
+        }
+    ],
+    "2026-04-09": [
+        {
+            "name": "강판수",
+            "drug": "인베가 서스티나",
+            "dosage": "234mg",
+            "interval": 28,
+            "prescribed_date": "2026-04-09",
+            "next_date": null,
+            "memo": "",
+            "type": "due",
+            "record_id": 1774277426472
+        },
+        {
+            "name": "류나영",
+            "drug": "인베가 서스티나",
+            "dosage": "234mg",
+            "interval": 28,
+            "prescribed_date": "2026-04-09",
+            "next_date": null,
+            "memo": "",
+            "type": "due",
+            "record_id": 1774277426474
+        },
+        {
+            "name": "표경순",
+            "drug": "인베가 서스티나",
+            "dosage": "234mg",
+            "interval": 28,
+            "prescribed_date": "2026-04-09",
+            "next_date": null,
+            "memo": "",
+            "type": "due",
+            "record_id": 1774277426476
+        }
+    ],
+    "2026-06-04": [
+        {
+            "name": "임나은",
+            "drug": "인베가 트린자",
+            "dosage": "410mg",
+            "interval": 84,
+            "prescribed_date": "2026-06-04",
+            "next_date": null,
+            "memo": "",
+            "type": "due",
+            "record_id": 1774277426473
+        },
+        {
+            "name": "왕준원",
+            "drug": "인베가 트린자",
+            "dosage": "819mg",
+            "interval": 84,
+            "prescribed_date": "2026-06-04",
+            "next_date": null,
+            "memo": "",
+            "type": "due",
+            "record_id": 1774277426475
+        }
+    ],
+    "2026-03-26": [
+        {
+            "name": "정성희",
+            "drug": "인베가 서스티나",
+            "dosage": "156mg",
+            "interval": 21,
+            "prescribed_date": "2026-03-26",
+            "next_date": null,
+            "memo": "",
+            "type": "due",
+            "record_id": 1774277426577
+        }
+    ],
+    "2026-06-10": [
+        {
+            "name": "강율리",
+            "drug": "인베가 트린자",
+            "dosage": "819mg",
+            "interval": 84,
+            "prescribed_date": "2026-06-10",
+            "next_date": null,
+            "memo": "",
+            "type": "due",
+            "record_id": 1774277426498
+        },
+        {
+            "name": "박성훈",
+            "drug": "인베가 트린자",
+            "dosage": "410mg",
+            "interval": 84,
+            "prescribed_date": "2026-06-10",
+            "next_date": null,
+            "memo": "",
+            "type": "due",
+            "record_id": 1774277426501
+        }
+    ],
+    "2026-04-15": [
+        {
+            "name": "정연지",
+            "drug": "아빌리파이 메인테나",
+            "dosage": "400mg",
+            "interval": 28,
+            "prescribed_date": "2026-04-15",
+            "next_date": null,
+            "memo": "",
+            "type": "due",
+            "record_id": 1774277426499
+        },
+        {
+            "name": "백은주",
+            "drug": "인베가 서스티나",
+            "dosage": "117mg",
+            "interval": 28,
+            "prescribed_date": "2026-04-15",
+            "next_date": null,
+            "memo": "",
+            "type": "due",
+            "record_id": 1774277426500
+        },
+        {
+            "name": "김태윤",
+            "drug": "인베가 서스티나",
+            "dosage": "156mg",
+            "interval": 28,
+            "prescribed_date": "2026-04-15",
+            "next_date": null,
+            "memo": "",
+            "type": "due",
+            "record_id": 1774277426503
+        }
+    ],
+    "2026-05-13": [
+        {
+            "name": "조귀영",
+            "drug": "아빌리파이 아심투파이",
+            "dosage": "960mg",
+            "interval": 56,
+            "prescribed_date": "2026-05-13",
+            "next_date": null,
+            "memo": "",
+            "type": "due",
+            "record_id": 1774277426502
+        }
+    ],
+    "2026-04-11": [
+        {
+            "name": "정지혜",
+            "drug": "아빌리파이 아심투파이",
+            "dosage": "720mg",
+            "interval": 59,
+            "prescribed_date": "2026-04-11",
+            "next_date": null,
+            "memo": "",
+            "type": "due",
+            "record_id": 1774277426545
+        }
+    ]
+}
