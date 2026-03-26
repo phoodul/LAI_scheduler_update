@@ -1225,47 +1225,82 @@ class LAI_Scheduler_App:
     def show_custom_notification(self, title, message, level):
         level_configs = {
             "today": {"bg": "#FFEBEE", "header_bg": "#E91E63", "title": "📢 [오늘] ", "offset": 0},
-            "tomorrow": {"bg": "#FFF3E0", "header_bg": "#FF9800", "title": "🔔 [내일] ", "offset": 280},
-            "dat": {"bg": "#E3F2FD", "header_bg": "#2196F3", "title": "ℹ️ [모레] ", "offset": 560},
+            "tomorrow": {"bg": "#FFF3E0", "header_bg": "#FF9800", "title": "🔔 [내일] ", "offset": 260},
+            "dat": {"bg": "#E3F2FD", "header_bg": "#2196F3", "title": "ℹ️ [모레] ", "offset": 520},
         }
-        config = level_configs.get(level, level_configs["tomorrow"]) # Default to orange
+        config = level_configs.get(level, level_configs["tomorrow"])
 
         popup = tk.Toplevel(self.root)
         popup.title("알림")
         popup.overrideredirect(True)
         popup.attributes("-topmost", True)
-        popup.configure(bg=config["bg"])
+
+        TRANSP = "#010101"
+        popup.configure(bg=TRANSP)
+        try:
+            popup.attributes("-transparentcolor", TRANSP)
+        except Exception:
+            popup.configure(bg=config["bg"])
 
         screen_width = popup.winfo_screenwidth()
         screen_height = popup.winfo_screenheight()
 
-        window_width = 450
-        window_height = 250
+        window_width = 330
+        window_height = 240
         x_pos = screen_width - window_width - 20
         y_pos = screen_height - window_height - 50 - config["offset"]
 
         popup.geometry(f"{window_width}x{window_height}+{x_pos}+{y_pos}")
 
+        RADIUS = 13
+        BORDER = 2
+
+        canvas = tk.Canvas(popup, width=window_width, height=window_height,
+                           bg=TRANSP, highlightthickness=0)
+        canvas.pack(fill=tk.BOTH, expand=True)
+
+        def _rrect(x1, y1, x2, y2, r):
+            return [
+                x1+r, y1, x2-r, y1,
+                x2, y1, x2, y1+r,
+                x2, y2-r, x2, y2,
+                x2-r, y2, x1+r, y2,
+                x1, y2, x1, y2-r,
+                x1, y1+r, x1, y1,
+            ]
+
+        canvas.create_polygon(_rrect(0, 0, window_width, window_height, RADIUS),
+                              smooth=True, fill=config["header_bg"], outline="")
+        canvas.create_polygon(_rrect(BORDER, BORDER, window_width-BORDER, window_height-BORDER, RADIUS-1),
+                              smooth=True, fill=config["bg"], outline="")
+
+        pad = BORDER + 3
+        content_w = window_width - 2 * pad
+        content_h = window_height - 2 * pad
+        content_frame = tk.Frame(canvas, bg=config["bg"], width=content_w, height=content_h)
+        content_frame.pack_propagate(False)
+        canvas.create_window(pad, pad, anchor="nw", window=content_frame,
+                             width=content_w, height=content_h)
+
         tk.Label(
-            popup,
+            content_frame,
             text=config["title"] + title,
             bg=config["header_bg"],
             fg="white",
-            font=("맑은 고딕", 12, "bold"),
-            pady=8,
+            font=("맑은 고딕", 11, "bold"),
+            pady=7,
         ).pack(fill=tk.X)
 
-        msg_label = tk.Label(
-            popup,
+        tk.Label(
+            content_frame,
             text=message,
             bg=config["bg"],
             font=("맑은 고딕", 10),
             justify=tk.LEFT,
-            padx=15,
-            pady=10,
-            wraplength=420,
-        )
-        msg_label.pack(expand=True, fill=tk.BOTH)
+            padx=12,
+            pady=8,
+            wraplength=content_w - 20,
+        ).pack(expand=True, fill=tk.BOTH)
 
         def close_popup():
             self.open_popups[level] = None
@@ -1274,10 +1309,10 @@ class LAI_Scheduler_App:
         popup.protocol("WM_DELETE_WINDOW", close_popup)
         self.open_popups[level] = popup
 
-        close_btn = tk.Button(
-            popup, text="확인 (창 닫기)", command=close_popup, bg="white", borderwidth=1
-        )
-        close_btn.pack(pady=10)
+        tk.Button(
+            content_frame, text="확인 (창 닫기)", command=close_popup,
+            bg="white", borderwidth=1
+        ).pack(pady=8)
 
     def _close_one_popup(self, event=None):
         """Alt+K: 모레→내일→오늘 순서로 팝업 하나씩 닫기"""
