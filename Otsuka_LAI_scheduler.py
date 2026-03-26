@@ -623,6 +623,7 @@ class LAI_Scheduler_App:
                     
                     day_frame.bind("<Double-Button-1>", lambda e, d=day: self.open_input_dialog(d, None))
                     day_lbl.bind("<Double-Button-1>", lambda e, d=day: self.open_input_dialog(d, None))
+                    day_label_frame.bind("<Double-Button-1>", lambda e, d=day: self.open_input_dialog(d, None))
                     appointments_frame.bind("<Double-Button-1>", lambda e, d=day: self.open_input_dialog(d, None))
 
 
@@ -1089,16 +1090,10 @@ class LAI_Scheduler_App:
 
 
         list_frame = tk.LabelFrame(dialog, text=f" [ {date_key} 기록 목록 ] ", font=("맑은 고딕", 11, "bold"), padx=10, pady=10)
-        list_frame.pack(fill=tk.BOTH, expand=True, padx=10, pady=5)
+        list_frame.pack(fill=tk.X, padx=10, pady=5)
 
-        canvas = tk.Canvas(list_frame)
-        scrollbar = ttk.Scrollbar(list_frame, orient="vertical", command=canvas.yview)
-        scrollable_frame = tk.Frame(canvas)
-        scrollable_frame.bind("<Configure>", lambda e: canvas.configure(scrollregion=canvas.bbox("all")))
-        canvas.create_window((0, 0), window=scrollable_frame, anchor="nw")
-        canvas.configure(yscrollcommand=scrollbar.set)
-        canvas.pack(side="left", fill="both", expand=True)
-        scrollbar.pack(side="right", fill="y")
+        scrollable_frame = tk.Frame(list_frame)
+        scrollable_frame.pack(fill=tk.X)
 
         current_items = self.schedule_data.get(date_key, [])
         if not current_items:
@@ -1151,9 +1146,18 @@ class LAI_Scheduler_App:
 
                 del_btn = tk.Button(item_frame, text="삭제", bg="#FFCDD2", command=lambda i=loop_item: delete_item(i))
                 del_btn.pack(side=tk.RIGHT, padx=5)
-    
-    
-    
+
+        def auto_resize_dialog():
+            dialog.update_idletasks()
+            req_h = dialog.winfo_reqheight()
+            screen_h = dialog.winfo_screenheight()
+            new_h = min(req_h + 20, screen_h - 80)
+            if new_h > 700:
+                dialog.geometry(f"450x{new_h}")
+
+        dialog.after(50, auto_resize_dialog)
+
+
     def start_notification_thread(self):
         t = threading.Thread(target=self.notification_loop, daemon=True)
         t.start()
