@@ -76,6 +76,7 @@ class LAI_Scheduler_App:
         self.drag_item = None
         self.drag_widget = None
         self.drop_target_frame = None
+        self._month_switch_locked = False
         self.day_frames = []
         self.last_notification_check_date = None
         self.notification_lock = threading.Lock()
@@ -652,8 +653,6 @@ class LAI_Scheduler_App:
                             appointment_block.bind("<Double-Button-1>", lambda e, d=day, i=item: (self.open_input_dialog(d, i), "break"))
                             if is_due:
                                 appointment_block.bind("<Control-ButtonPress-1>", lambda e, i=item, w=appointment_block: self.on_drag_start(e, i, w))
-                                appointment_block.bind("<B1-Motion>", self.on_drag_motion)
-                                appointment_block.bind("<ButtonRelease-1>", self.on_drag_release)
 
                 else:
                     day_frame.config(bg="#F2F2F2", relief='flat')
@@ -684,6 +683,10 @@ class LAI_Scheduler_App:
         drag_label.pack()
         
         self.drag_widget.geometry(f"+{event.x_root}+{event.y_root}")
+
+        # 드래그 중 달력이 다시 그려져도(월 이동) 이벤트가 끊기지 않도록 전역 바인딩 사용
+        self.root.bind_all("<B1-Motion>", self.on_drag_motion)
+        self.root.bind_all("<ButtonRelease-1>", self.on_drag_release)
 
     def _find_day_frame(self, widget):
         """위젯 트리를 거슬러 올라가 date_info를 가진 day_frame을 반환"""
@@ -718,6 +721,10 @@ class LAI_Scheduler_App:
         x, y = event.x_root, event.y_root
         self.drag_widget.geometry(f"+{x-10}+{y-10}")
 
+        # 달력 좌/우 가장자리로 끌면 이전/다음 달로 이동 (월을 넘겨 다른 달로 옮길 때)
+        if self._maybe_switch_month(x, y):
+            return
+
         # drag_widget을 잠깐 숨겨서 winfo_containing이 달력 셀을 직접 탐지하도록 함
         # (같은 이벤트 핸들러 내에서는 화면 갱신이 일어나지 않으므로 깜빡임 없음)
         self.drag_widget.withdraw()
@@ -737,6 +744,11 @@ class LAI_Scheduler_App:
             self.drop_target_frame = day_frame
 
     def on_drag_release(self, event):
+        # 전역 드래그 바인딩 해제 (월 이동 후에도 확실히 정리)
+        self.root.unbind_all("<B1-Motion>")
+        self.root.unbind_all("<ButtonRelease-1>")
+        self._month_switch_locked = False
+
         # If no drag was started, do nothing.
         if not self.drag_item:
             return
@@ -797,7 +809,37 @@ class LAI_Scheduler_App:
         self.drag_item = None
         self.drop_target_frame = None
         self.draw_calendar()
-        
+
+    def _maybe_switch_month(self, x, y):
+        """드래그 중 커서가 달력 좌/우 가장자리에 닿으면 이전/다음 달로 전환."""
+        if self._month_switch_locked:
+            return False
+        cal = self.calendar_frame
+        if not cal.winfo_ismapped():
+            return False
+        left = cal.winfo_rootx()
+        right = left + cal.winfo_width()
+        top = cal.winfo_rooty()
+        bottom = top + cal.winfo_height()
+        edge = 30  # 가장자리 감지 폭(px)
+        # 세로로 달력 영역 안에 있을 때만 동작
+        if y < top or y > bottom:
+            return False
+        if x <= left + edge:
+            self.prev_month()
+        elif x >= right - edge:
+            self.next_month()
+        else:
+            return False
+        # 달이 바뀌면 기존 셀이 파괴되므로 drop 대상 초기화 + 잠시 잠금(연속 전환 방지)
+        self.drop_target_frame = None
+        self._month_switch_locked = True
+        self.root.after(600, self._unlock_month_switch)
+        return True
+
+    def _unlock_month_switch(self):
+        self._month_switch_locked = False
+
     def prev_month(self):
         if self.month == 1:
             self.month = 12
