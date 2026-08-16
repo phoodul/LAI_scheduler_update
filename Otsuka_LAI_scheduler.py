@@ -630,6 +630,11 @@ class LAI_Scheduler_App:
 
                     if date_key in self.schedule_data:
                         for item in self.schedule_data[date_key]:
+                            # 드래그 중인 카드는 그리지 않는다.
+                            # (월 이동으로 재렌더될 때 pack_forget 한 원본이 되살아나는 것 방지)
+                            if item is self.drag_item:
+                                continue
+
                             block_color = "#D4EDDA" # Completed (injection)
                             is_due = item.get("type") == "due"
                             if is_due:
@@ -782,12 +787,26 @@ class LAI_Scheduler_App:
                             break
                     
                     if parent_injection:
-                        # 1. Update the parent injection's 'next_date'.
-                        parent_injection['next_date'] = new_date_str
-                        
-                        # 2. Recalculate and update the interval for both records.
                         injection_date = datetime.datetime.strptime(parent_injection_date_str, "%Y-%m-%d").date()
                         new_interval = (new_date - injection_date).days
+
+                        # 월을 넘겨 끌 수 있게 되면서 주사일보다 앞으로 놓는 실수가 가능해졌다.
+                        # 간격이 0 이하가 되는 이동은 기록이 깨지므로 막는다.
+                        if new_interval <= 0:
+                            messagebox.showwarning(
+                                "이동 불가",
+                                f"예약일은 주사일({parent_injection_date_str}) 다음 날부터 지정할 수 있습니다.\n"
+                                f"선택한 날짜: {new_date_str}",
+                            )
+                            self.drag_item = None
+                            self.drop_target_frame = None
+                            self.draw_calendar()
+                            return
+
+                        # 1. Update the parent injection's 'next_date'.
+                        parent_injection['next_date'] = new_date_str
+
+                        # 2. Recalculate and update the interval for both records.
                         parent_injection['interval'] = new_interval
                         self.drag_item['interval'] = new_interval # Update the item being dragged
 
