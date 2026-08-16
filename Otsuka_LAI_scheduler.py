@@ -57,6 +57,16 @@ class LAI_Scheduler_App:
         self.schedule_data = self.load_data()
         self.config = self.load_config()
 
+        # 드래그 상태와 day_frames는 UI를 그리기 전에 준비한다.
+        # draw_calendar()가 self.drag_item을 읽고 self.day_frames를 채우므로,
+        # 이 초기화가 뒤에 오면 첫 렌더에서 AttributeError가 나고
+        # 애써 채운 day_frames도 곧바로 비워진다.
+        self.drag_item = None
+        self.drag_widget = None
+        self.drop_target_frame = None
+        self._month_switch_locked = False
+        self.day_frames = []
+
         # Main frame
         main_frame = tk.Frame(self.root)
         main_frame.pack(fill=tk.BOTH, expand=True)
@@ -73,11 +83,6 @@ class LAI_Scheduler_App:
             "<F1>", lambda event: self.open_input_dialog(self.current_date.day, None)
         )
 
-        self.drag_item = None
-        self.drag_widget = None
-        self.drop_target_frame = None
-        self._month_switch_locked = False
-        self.day_frames = []
         self.last_notification_check_date = None
         self.notification_lock = threading.Lock()
         # 열린 알림 팝업 추적 (level 순서: dat → tomorrow → today 순으로 닫기)
